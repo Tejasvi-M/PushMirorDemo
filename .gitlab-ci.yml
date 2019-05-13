@@ -7,7 +7,7 @@ stages:
 stage1job:
    stage: stage1
    script: 
-     - cd /the-example-app.nodejs
+     - cd the-example-app.nodejs
      - npm install
      - node ./app.js
    tags:
