@@ -1,4 +1,7 @@
 image: node:4.2.2
+cache:
+  paths:
+  - node_modules/
 stages:
   - stage1
 stage1job:
