@@ -1,7 +1,7 @@
 image: node:11.15.0
 cache:
   paths:
-  - node_modules/
+  - ./the-example-app.nodejs/node_modules/
 stages:
   - stage1
 stage1job:
