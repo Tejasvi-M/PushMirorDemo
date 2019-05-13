@@ -6,5 +6,6 @@ stage1job:
    script: 
      - npm install
      - node ./app.js
-
+   tags:
+     - gitlab-org
 
