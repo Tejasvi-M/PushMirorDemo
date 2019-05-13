@@ -9,6 +9,7 @@ stage1job:
    script: 
      - cd the-example-app.nodejs
      - npm install
+     - ls -al
      - node ./app.js
    tags:
      - gitlab-org
